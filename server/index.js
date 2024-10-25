@@ -145,9 +145,9 @@ const server = new ApolloServer({
 });
   
 // Passing an ApolloServer instance to the `startStandaloneServer` function.
-// start the server at port 2409 on localhost
+// start the server at port 2410 on localhost
 const { url } = await startStandaloneServer(server, {
-    listen: { port: 2409 },
+    listen: { port: 2410 },
 });
 
 console.log(`Server starts at: ${url}`);

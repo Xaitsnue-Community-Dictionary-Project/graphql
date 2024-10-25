@@ -5,12 +5,12 @@
   "scripts": {
     "start": "node index.js"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@apollo/server": "^4.11.0",
     "graphql": "^16.9.0"
-  },
-  "type": "module"
+  }
 }
